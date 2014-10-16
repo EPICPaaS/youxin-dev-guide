@@ -7,6 +7,7 @@
 	"baseRequest" : {
          "token": "eflow_token"
 	},
+    "sessions": ["all"],
     "content": "Test!",
     "msgType": "1",
 	"toUserNames" : ["22622391649384526@user", "22622391649384527@user"],
