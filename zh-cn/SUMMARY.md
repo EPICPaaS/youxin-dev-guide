@@ -27,6 +27,7 @@
        * [添加群用户](api/device/add_qun_member.md)
        * [删除群用户](api/device/del_qun_member.md)
        * [设置会话状态](api/device/set_session_state.md)
+       * [添加 APNS Token](api/device/add_apns_token.md)
    * [应用接口](api/app/README.md)
        * [推送](api/app/app_push.md)
        * [设置会话状态](api/app/set_session_state.md)
