@@ -10,9 +10,12 @@
         "token": ""
     },
 	"userName": "dingliang",
-    "password": "1"
+    "password": "1",
+    "apnsToken":"21312312312"
 }
 ````
+其中````"apnsToken"````为可选参数
+
 * 响应示例：
 ````
 {
