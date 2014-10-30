@@ -15,7 +15,8 @@
 		"toUserName": "572b768e-79f8-48e6-9cbe-4ad9db1ca6d9@qun",
 		"msgType": 1,
 		"content": "Test!",
-        "clientMsgId": 1407734409242
+        "clientMsgId": 1407734409242,
+        "customFilelds":{"dataType":"1","taskType":"审批","operType":"update","content":"","appCode":"arrange"}
 	}
 }
 ````
