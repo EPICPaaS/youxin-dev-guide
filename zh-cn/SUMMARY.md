@@ -12,6 +12,7 @@
    * [组织机构同步](api/org_sync/README.md)
        * [用户同步](api/org_sync/user.md)
        * [组织同步](api/org_sync/org.md)
+       * [同步租户](api/org_sync/sync_tenant.md)
    * [设备接口](api/device/README.md)
        * [用户登录](api/device/login.md)
        * [推送](api/device_push.md)
