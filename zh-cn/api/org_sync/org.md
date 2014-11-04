@@ -21,7 +21,7 @@
 ````
 {
     "baseResponse": {
-        "errMsg": "syncOrg succeed",
+        "errMsg": "",
         "ret": 0
     }
 }

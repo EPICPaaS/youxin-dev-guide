@@ -31,7 +31,7 @@
 ````
 {
     "baseResponse": {
-        "errMsg": "syncUser  success",
+        "errMsg": "",
         "ret": 0
     }
 }
