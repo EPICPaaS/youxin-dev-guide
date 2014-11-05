@@ -1,4 +1,4 @@
-# 同步租户
+# 租户同步
 * :8093/app/client/app/syncTenant
 * 请求参考示例：
 
