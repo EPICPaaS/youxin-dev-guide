@@ -9,7 +9,6 @@
     "orgId": "123",
 	"member": {
         "uid": "1",
-        "userName": "111@user",
         "name": "ceishi",
         "nickName": "ceshi",
         "pYInitial": "cs",
