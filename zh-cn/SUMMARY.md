@@ -34,6 +34,7 @@
        * [推送](api/app/app_push.md)
        * [设置会话状态](api/app/set_session_state.md)
        * [获取会话集](api/app/get_sessions.md)
+       * [同步配额信息](api/app/syncquota.md)
    * [会话管理](api/session_mgmt/README.md)
        * [激活](api/session_mgmt/active.md)
        * [获取用户会话集](api/session_mgmt/get_sessions.md)
