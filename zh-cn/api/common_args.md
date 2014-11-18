@@ -8,6 +8,7 @@
 {
     "baseRequest" : {
         "uid": "",
+        "deviceType": "",
         "deviceID": "",
         "token": ""
     },
@@ -23,6 +24,7 @@
 {
     "baseRequest" : {
         "uid": "",
+        "deviceType": "",
         "deviceID": "",
         "token": ""
     },
@@ -32,6 +34,7 @@
 其中：
 
 * ````uid````：用户 id
+* ````deviceType````: android/iOS/appWeb
 * ````deviceID````：设备 id
 * ````token````：调用令牌
 
