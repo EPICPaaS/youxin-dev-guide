@@ -4,17 +4,46 @@
 * 请求参数示例：
 ````
 {
-	"baseRequest" : {
-         "token": "eflow_token"
-	},
-    "sessions": ["all"],
-    "content": "Test!",
-    "msgType": "1",
-	"toUserNames" : ["22622391649384526@user", "22622391649384527@user"],
+    "baseRequest": {
+        "token": "eflow_token"
+    },
+    "content": "有信测试！",
+    "msgType": "102",
+    "toUserNames": [
+        "23622391649384526@user",
+        "23622391649384525@user"
+    ],
     "objectContent": {
-        "appId": "23622391649370202",
-        "appSendId": "xxxxx"
-    }
+        "appId": "2",
+        "body": [
+            {
+                "content": "列表项1要显示的内容"
+            },
+            {
+                "content": "列表项2要显示的内容"
+            }
+        ],
+        "operations": [
+                    {
+                "content": "选项返回一个页面",
+                "action": "http://192.168.2.15:8080/test/phone/test/type1",
+                "msgType": "1"
+            },
+             {
+                "content": "选项返回一个JSON",
+                "action": "http://192.168.2.15:8080/test/phone/test/type2",               
+		    "msgType": "2"
+            }
+        ],
+        "head": {
+            "pubTime": "1415672178725",
+            "content": "测试标题2"
+        }
+    },
+    "sessions": [
+        "all"
+    ],
+    "expire": 3600
 }
 ````
 * 请求响应示例：
